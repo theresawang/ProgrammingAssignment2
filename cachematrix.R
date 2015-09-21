@@ -36,14 +36,3 @@ cacheSolve <- function(x, ...) {
         
 }
 
-##test
-## A <- matrix(c(2,2,3,2),2,2)
-## m = makeCacheMatrix(A)
-## m$get()
-##      [,1] [,2]
-## [1,]    2    3
-## [2,]    2    2
-## cacheSolve(m)
-##       [,1] [,2]
-## [1,]   -1  1.5
-## [2,]    1 -1.0
